@@ -6,7 +6,7 @@ Este repositório foi criado com o único propósito de armazenar os códigos e 
 
 ## 📖 Seções do curso que realizei até o momento
 
-- [ ] Natours Project (Part 1);
+- [x] Natours Project (Part 1);
 - [ ] How CSS Works;
 - [ ] Introduction to SASS and NPM;
 - [ ] Natours Project (Part 2);
