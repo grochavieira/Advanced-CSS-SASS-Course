@@ -1,0 +1,41 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  /* padding adicionado para o site inteiro */
+  padding: 30px;
+}
+
+.header {
+  height: 95vh;
+  /* é criado um gradiente transparente antes de adicionar o fundo */
+  background-image: linear-gradient(to right bottom, #7ed56fc7, #28b485cb),
+    url("../img/hero.jpg");
+  background-size: cover;
+  /* sempre que a imagem é cortada, 
+  a parte mais pra cima dela é mostrada */
+  background-position: top;
+
+  /* serve para cortar a imagem da forma que
+  desejar, indicando os n pontos para formar um
+  poligono */
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+}
