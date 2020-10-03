@@ -13,4 +13,4 @@ Este repositório foi criado com o único propósito de armazenar os códigos e 
 - [ ] Natours Project (Part 3);
 - [ ] Trillo Project;
 - [ ] A Quick Introduction to CSS Grid Layout;
-- [ ] Nexter Project.
+- [ ] Nexter Project
