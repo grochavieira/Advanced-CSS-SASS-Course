@@ -1,0 +1,45 @@
+.header {
+  height: 95vh;
+  /* é criado um gradiente transparente antes de adicionar o fundo */
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../img/hero.jpg");
+  background-size: cover;
+  /* sempre que a imagem é cortada, 
+    a parte mais pra cima dela é mostrada */
+  background-position: top;
+  position: relative;
+
+  /* serve para cortar a imagem da forma que
+    desejar, indicando os n pontos para formar um
+    poligono */
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+
+  &__logo-box {
+    /* a posição de um elemento é relativo ao seu
+    elemento pai, que é definido por position: relative; */
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    /* Como o translate é em relação ao próprio
+      elemento, aqui ele vai se mover em 50% em relação
+      ao tamanho do próprio elemento, deixando ele
+      no centro */
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
