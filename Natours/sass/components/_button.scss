@@ -2,6 +2,7 @@
 especiais que os elementos do css tem*/
 
 .btn {
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -14,6 +15,9 @@ especiais que os elementos do css tem*/
     transition: all 0.2s;
     position: relative;
     font-size: $default-font-size;
+
+    border: none;
+    cursor: pointer;
   }
 
   &:hover {
@@ -26,7 +30,9 @@ especiais que os elementos do css tem*/
     }
   }
 
-  &:active {
+  &:active,
+  &:focus {
+    outline: none;
     transform: translateY(-0.1rem);
     box-shadow: 0rem 0.5rem 0.1rem 0rem rgba($color-black, 0.2);
   }
