@@ -9,7 +9,7 @@ Este repositório foi criado com o único propósito de armazenar os códigos e 
 - [x] Natours Project (Part 1);
 - [x] How CSS Works;
 - [x] Introduction to SASS and NPM;
-- [ ] Natours Project (Part 2);
+- [x] Natours Project (Part 2);
 - [ ] Natours Project (Part 3);
 - [ ] Trillo Project;
 - [ ] A Quick Introduction to CSS Grid Layout;
